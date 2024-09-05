@@ -54,7 +54,7 @@ export function ContributionHeatmap() {
       </div>
       <div className="flex">
         <div className="grid grid-cols-1 gap-1 mr-2 text-xs text-gray-400">
-        <div className={`h-4  invisible' }`}>{" "}</div>
+        <div  className={`h-4  invisible' }`}>{" "}</div>
           {daysOfWeek.map((day, index) => (
             <div key={day} className={`h-4 ${index % 2 === 0 ? 'invisible' : ''}`}>{day}</div>
           ))}
